@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+</head>
+<body>
+    <h1>Exercise 5: Display numbers from a list using loop</h1>
+    <script>
+        numbers = [12, 75, 150, 180, 145, 525, 50];
+
+        // The number must be divisible by five
+        // If the number is greater than 150, then skip it and move to the next number
+        // If the number is greater than 500, then stop the loop
+       
+
+        for (let i = 0; i < numbers.length; i++) {
+            
+            if (numbers[i] % 5 == 0 ){ 
+                if (numbers[i] > 500){break;} {
+                    if (numbers[i] > 150){continue;}
+                    document.write(numbers[i]+"<br> ");
+                    
+                }
+            }
+        };
+      
+            
+            
+    
+        /* Expected output:
+         75
+        150
+        145
+        */
+
+    </script>
+
+    
+    
+</body>
+</html>
