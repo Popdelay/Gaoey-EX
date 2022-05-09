@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12</title>
+</head>
+
+<body>
+    <h1>Exercise 12: Display Fibonacci series up to 10 terms</h1>
+    <script>
+
+        /* The Fibonacci Sequence is a series of numbers. 
+        The next number is found by adding up the two numbers before it. 
+        The first two numbers are 0 and 1.
+
+        For example, 0, 1, 1, 2, 3, 5, 8, 13, 21. The next number in this series above is 13+21 = 34.
+
+        */
+
+        
+        let num1 = 0;
+        let num2 = 1;
+    
+
+        for (i = 0; i < 10; i++) {
+            document.write(num1+" ");
+            res = num1+ num2;
+            num1 = num2;
+            num2 = res;
+            
+            
+        }
+        
+            
+        
+
+
+        /* Expected output:
+        Fibonacci sequence:
+        0  1  1  2  3  5  8  13  21  34
+        */
+    </script>
+
+</body>
+
+</html>
