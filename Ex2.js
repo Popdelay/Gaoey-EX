@@ -2,7 +2,7 @@
 //Write a program to print the following number pattern using a loop.
 
 for (let i = 1; i < 7; i++) {
-  result = "";
+  result = ""; // GAOEY - ให้มีการประกาศประเภทตัวแปรด้วยทุกครั้ง เช่น let result = ""
   for (let x = 1; x < i; x++) {
     result += x + " ";
   }
