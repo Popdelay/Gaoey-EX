@@ -8,6 +8,18 @@ start = 25
 end = 50
 */
 
+// GAOEY - ปรกติแล้ว expression ไหนที่ return เป็น boolean แล้ว ไม่ต้องทำแบบนี้
+// if(expression) {
+//   return true
+// } else {
+//   else return false
+// }
+
+// ให้ return expression ได้เลย
+// Ex. return expression
+
+// ปล. expression คือ condition ที่อยู่ใน if
+
 function isPrime(num) {
   let count = 0;
   for (let i = 0; i <= num; i++) {
@@ -15,6 +27,8 @@ function isPrime(num) {
       count++;
     }
   }
+
+  // GAOEY - return count == 2 ได้เลย
   if (count == 2) {
     return true;
   } else {
