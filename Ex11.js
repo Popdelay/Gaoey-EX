@@ -38,6 +38,7 @@ function isPrime(num) {
 
 function displayPrime(start, end) {
   for (let i = start; i <= end; i++) {
+    // GAOEY - if(isPrime(i)) ได้เลย ไม่ต้่อง === True เพราะ isPrime(i) เป็น function return boolean อยู่แล้ว
     if (isPrime(i) === true) {
       console.log(i);
     }
